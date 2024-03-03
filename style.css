@@ -1,0 +1,118 @@
+.topnav {
+    overflow: auto;
+    background-color: #fff;
+    margin: 0;
+    width: 100%;
+  }
+
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 20px;
+    max-width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+h1{
+    color: black;
+    margin-top: 50;
+    text-align: center;
+}
+
+address{
+    text-align: center;
+}
+.contactForm{
+    position: relative;
+}
+
+body{
+    background-color:#DDCEDF;
+}
+
+.btn-bd-login {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #FEE3E3;
+    text-align: center;
+    padding: 50px 60px 70px;
+    margin-top: 200px;
+}
+
+.input-field{
+    background: #fff;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+
+
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: #999;
+}
+
+.btn-field{
+    width: 100%;
+    display:flex;
+}
+
+.btn-field button{
+    background: #DDCEDF;
+    margin-top: 40px;
+    width: 100%;
+    color:black;
+    border-radius: 3px;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    font-size: medium;
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+h3{
+    text-align: center;
+}
