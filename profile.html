@@ -7,6 +7,7 @@
     <title>Profile page</title>
     <!-- This is the link to the css style sheet-->
     <link rel="Stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ced277b41.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
@@ -19,10 +20,26 @@
     </nav>
 
     <h2>Profile</h2>
-    <h3>Welcome Back!</h3>
 
     <div class="profile-image">
-        <i class="fa-regular fa-address-card"></i>"
+        <h2>Welcome Back!</h2>
+    </div>
+
+    <div class="image-upload">
+        <img src="./Images/woman_image.jpeg" width="250px" height="300px">
+        <input class="file-upload-input" type="file" onchange="readURL(this)" accept="image/*">
+
+    </div>
+
+
+    <div class="quote-day">
+        <address>This is a wonderful day, I have never seen it before</address>
+    </div>
+
+
+    <div class="btn-profile">
+        <button type="button">Journal</button>
+        <button type="button">Check Mood</button>
     </div>
 </body>
 </html>
