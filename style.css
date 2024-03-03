@@ -113,6 +113,37 @@ h2{
     text-align: left;
 }
 
-h3{
+.profile-image h2{
     text-align: center;
+}
+
+.quote-day address{
+    text-align: center;
+}
+
+.image-upload{
+    margin-left: 610px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.btn-profile{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 350px;
+}
+
+.btn-profile button{
+    flex-basis: 23%;
+    background-color: purple;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 60px;
+
 }
